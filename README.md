@@ -18,7 +18,22 @@ Subset of [FronkonGames' Steam Games Dataset](https://huggingface.co/datasets/Fr
 
 First accessed on 2024-04-10.
 
+## Contents
+
+- `README.md`: this file
+- `isye_6420_project_code_ssiddiqui60.ipynb`: notebook with all project code
+- `isye_6420_project_report_ssiddiqui60.pdf`: project report
+- `requirements.txt`: all packages and versions used on the Google Colab instance.
+- `data`
+    - `embedded_reviews_np.pkl` is a NumPy array of DistlBERT embeddings for the Reviews field.
+        - Created on local machine with 32GB ram, 16 CPUs @ 3.3GHz, with ~8GB CUDA-compatible VRAM
+        - Took ~40 minutes
+        - Running this on free Colab instances can cause session to crash due to memory exhaustion.
+    - `embedd_desc_np.pkl` is a NumPy array of DistilBERT embeddings for the About the game field in the original data.
+        - Same as above
+
 ## Caveats
+
 - JAX-powered NumPyro NUTS sampling led to poor model fits across all models.
 - Some models can take more several hours to fit without NumPyro. 
 - You may find it useful to fit models on multiple concurrent Colab sessions.
