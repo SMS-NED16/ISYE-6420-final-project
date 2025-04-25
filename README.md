@@ -10,8 +10,8 @@ A comparative analysis of Bayesian and conventional frequentist statistical lear
 This was completed as a capstone project as part of a course in Bayesian Statistics for a graduate degree in Computer Science from Georgia Institute of Technology.
 
 ## Quick Links
-- (Report)[./isye_6420_project_report_ssiddiqui60.pdf]
-- (Code)[./isye_6420_project_code_ssiddiqui60.ipynb]
+- [Report](./isye_6420_project_report_ssiddiqui60.pdf)
+- [Code](./isye_6420_project_code_ssiddiqui60.ipynb)
 
 ## Dataset Used
 Subset of [FronkonGames' Steam Games Dataset](https://huggingface.co/datasets/FronkonGames/steam-games-dataset). 
